@@ -54,6 +54,12 @@ public class Customer {
         this.status = status;
         this.dateAdded = dateAdded;
     }
+     @PrePersist
+    public void prePersist() {
+        if (this.dateAdded == null) {
+            this.dateAdded = LocalDate.now();
+        }
+    }
 
     // Getters and Setters
 
