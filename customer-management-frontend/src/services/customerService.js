@@ -24,6 +24,6 @@ export const searchCustomer=(keyword) => {
     return api.get(`/customers/search?keyword=${keyword}`)
 }
 
-export const getCustomerByStatus= (status)=>{
+export const getCustomersByStatus= (status)=>{
     return api.get(`/customers/status/${status}`)
 }

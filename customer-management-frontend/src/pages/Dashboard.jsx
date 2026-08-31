@@ -48,7 +48,9 @@ function Dashboard() {
         </p>
 
         {loading ? (
-          <p>Loading dashboard...</p>
+          <div className="loading-container">
+            <div className="spinner"></div>
+          </div>
         ) : (
 
           <div className="dashboard-cards">

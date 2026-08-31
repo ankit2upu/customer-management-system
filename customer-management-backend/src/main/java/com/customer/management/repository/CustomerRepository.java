@@ -12,7 +12,12 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
     List<Customer> findByStatus(String status);
 
     // Search customers by name
-    List<Customer> findByNameContainingIgnoreCase(String keyword);
+    // List<Customer> findByNameContainingIgnoreCase(String keyword);
+    List<Customer> findByNameContainingIgnoreCaseOrEmailContainingIgnoreCaseOrPhoneContaining(
+        String name,
+        String email,
+        String phone
+    );
 
     // Count customers by status
     long countByStatus(String status);

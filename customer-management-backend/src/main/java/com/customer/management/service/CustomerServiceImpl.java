@@ -61,7 +61,10 @@ public class CustomerServiceImpl implements CustomerService {
     public List<Customer> searchCustomer(String keyword) {
 
         return customerRepository
-                .findByNameContainingIgnoreCase(keyword);
+                .findByNameContainingIgnoreCaseOrEmailContainingIgnoreCaseOrPhoneContaining(
+                    keyword,
+                    keyword,
+                    keyword);
     }
 
     @Override
