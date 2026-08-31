@@ -1,5 +1,6 @@
+import api from './api'
 
-export const getCustomer=()=>{
+export const getCustomers=()=>{
     return api.get("/customers")
 }
 
@@ -12,7 +13,7 @@ export const addCustomer=(customer)=>{
 }
 
 export const updateCustomer=(id,customer)=>{
-    return api.put(`/customers/${id}`)
+    return api.put(`/customers/${id}`, customer)
 }
 
 export const deleteCustomer=(id)=>{
