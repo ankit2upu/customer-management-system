@@ -1,6 +1,6 @@
 # Customer Management System
 
-A full-stack Customer Management System developed as an internship assignment. The application allows an admin to manage customer records through a responsive web interface.
+Customer Management System is a full-stack web application developed using React.js, Spring Boot, and MySQL. The application allows administrators to manage customer records with complete CRUD operations. It includes authentication, dashboard statistics, customer search, status filtering, responsive UI, form validation, and proper success/error notifications.
 
 ## Features
 
