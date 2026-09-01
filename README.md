@@ -3,7 +3,20 @@
 Customer Management System is a full-stack web application developed using React.js, Spring Boot, and MySQL. The application allows administrators to manage customer records with complete CRUD operations. It includes authentication, dashboard statistics, customer search, status filtering, responsive UI, form validation, and proper success/error notifications.
 
 ## Features
+💻 Frontend: React
 
+🗄️ Database: Railway or Aiven (MySQL)
+
+🌐 Backend Deployment: Render
+
+🎨 Frontend Deployment: Netlify
+---
+📌 Live Demo
+
+🔗 Frontend (Netlify):
+👉 https://serene-parfait-15ecd1.netlify.app/
+
+🔗 Backend (Render API)
 ### Authentication
 - Admin Login
 - Basic form validation
