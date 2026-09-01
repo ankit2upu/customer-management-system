@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/customers")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://serene-parfait-15ecd1.netlify.app/")
 public class CustomerController {
 
     private final CustomerService customerService;
